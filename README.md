@@ -28,7 +28,7 @@
 ***
 ## Table 7. Computational Cost and Parameter Count
 ![](./resources/Table_7.png)
-**Table 7. Wall-clock time per training step and number of trainable parameters for each method.** Here, $n_f$ and $n_{\Phi_\theta}$ are the parameter counts of the source NODE and RNVP conjugacy map, respectively; $n_{\delta f}$ and $n_{W\xi}$ are those of the augmentation and context modulation modules; $n_{\Phi_\gamma}$ is that of the RNVP adversarial generators. Only parameters that are trainable during the target transfer stage are counted.
+**Table 7. Wall-clock time (in seconds) per training step and number of trainable parameters for each method.** Here, $n_f$ and $n_{\Phi_\theta}$ are the parameter counts of the source NODE and RNVP conjugacy map, respectively; $n_{\delta f}$ and $n_{W\xi}$ are those of the augmentation and context modulation modules; $n_{\Phi_\gamma}$ is that of the RNVP adversarial generators. Only parameters that are trainable during the target transfer stage are counted.
 ***
 ## Figure 2. Mismatched Source Detection
 ![](./resources/Figure_2.png)
