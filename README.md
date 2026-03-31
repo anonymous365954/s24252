@@ -14,11 +14,11 @@
 ![](./resources/Table_3.png)
 **Table 3. Comparison of normal-form identification metrics across different $\lambda_\mathrm{orth}$.** Note that $\lambda_\mathrm{orth} = 0$ corresponds to the CM baseline without the orthogonal regularization. “Hinge” denotes a simple hinge-loss variant of the orthogonality loss applied in the main step, while keeping the adversarial step unchanged. Here, “leakage” measures the cosine similarity between the ground-truth gauge direction $r_\mathrm{gt}$ and the modeled correction $\Delta f_\mathrm{model}$, whereas “alignment” measures the cosine similarity between the ground-truth correction $\Delta f_\mathrm{gt}$ and $\Delta f_\mathrm{model}$.
 ***
-## Table 4. Target-only Comparison
+## Table 4. Target-Only Comparison
 ![](./resources/Table_4.png)
 **Table 4. Comparison of the observation-space invariant-set metric between the proposed CM-AO and a purely target-only NODE baseline on the Hopf benchmark.** Here, $N_t$ denotes the number of target trajectories used for training the target-only model, whereas for CM-AO it is fixed at 1. Since the target-only model does not involve any explicit notion of source dynamics or normal-form identification, we report only the invariant-set metrics evaluated in the target observation space.
 ***
-## Table 5. Off-limit-cycle Initial-Condition Extrapolation
+## Table 5. Off-Limit-Cycle Initial-Condition Extrapolation
 ![](./resources/Table_5.png)
 **Table 5. Invariant-set metrics for the Hopf problem under the off-limit-cycle initialization setting:** the training target trajectories are sampled only from initial conditions far from the limit cycle ($r \sim U([1,1.2])$, compared with the limit-cycle radius $\sqrt{\mu} \approx 0.32$) and with a short horizon ($T=20$), so that the training data do not reveal the limit-cycle geometry. Eight target trajectories are used for this experiment.
 ***
