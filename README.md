@@ -8,11 +8,11 @@
 ***
 ## Table 2. Adversarial Orbit-Tangent Architecture Ablation
 ![](./resources/Table_2.png)
-**Table 2. Comparison of normal-form identification metrics across different adversarial orbit-tangent architectures for the Hopf experiment:** NICE, a simple volume-preserving additive coupling model; RNVP, a non-volume-preserving affine coupling model; and CNF, a flexible neural vector field model. Here, “leakage” measures the cosine similarity between the ground-truth gauge direction $r_\mathrm{gt}$ and the modeled correction $\Delta f_\mathrm{model}$, whereas “alignment” measures the cosine similarity between the ground-truth correction $\Delta f_\mathrm{gt}$ and $\Delta f_\mathrm{model}$.
+**Table 2. Comparison of normal-form identification metrics across different adversarial orbit-tangent architectures for the Hopf experiment:** NICE, a simple volume-preserving additive coupling model; RNVP, a non-volume-preserving affine coupling model; and CNF, a flexible neural vector field model. Here, “leakage” measures the cosine similarity between the ground-truth orbit-tangent direction $r_\mathrm{gt}$ and the modeled correction $\Delta f_\mathrm{pred}$, whereas “alignment” measures the cosine similarity between the ground-truth correction $\Delta f_\mathrm{gt}$ and $\Delta f_\mathrm{pred}$.
 ***
 ## Table 3. Orthogonality Regularization Strength Ablation
 ![](./resources/Table_3.png)
-**Table 3. Comparison of normal-form identification metrics across different $\lambda_\mathrm{orth}$.** Note that $\lambda_\mathrm{orth} = 0$ corresponds to the CM baseline without the orthogonal regularization. “Hinge” denotes a simple hinge-loss variant of the orthogonality loss applied in the main step, while keeping the adversarial step unchanged. Here, “leakage” measures the cosine similarity between the ground-truth gauge direction $r_\mathrm{gt}$ and the modeled correction $\Delta f_\mathrm{model}$, whereas “alignment” measures the cosine similarity between the ground-truth correction $\Delta f_\mathrm{gt}$ and $\Delta f_\mathrm{model}$.
+**Table 3. Comparison of normal-form identification metrics across different $\lambda_\mathrm{orth}$.** Note that $\lambda_\mathrm{orth} = 0$ corresponds to the CM baseline without the orthogonal regularization. “Hinge” denotes a simple hinge-loss variant of the orthogonality loss applied in the main step, while keeping the adversarial step unchanged. Here, “leakage” measures the cosine similarity between the ground-truth orbit-tangent direction $r_\mathrm{gt}$ and the modeled correction $\Delta f_\mathrm{pred}$, whereas “alignment” measures the cosine similarity between the ground-truth correction $\Delta f_\mathrm{gt}$ and $\Delta f_\mathrm{pred}$.
 ***
 ## Table 4. Target-Only Comparison
 ![](./resources/Table_4.png)
@@ -24,7 +24,7 @@
 ***
 ## Table 6. Warm-Up Ablation
 ![](./resources/Table_6.png)
-**Table 6. Comparison of normal-form identification performance metrics with and without warm-up for the Hopf experiment.** Here, “leakage” measures the cosine similarity between the ground-truth gauge direction $r_\mathrm{gt}$ and the modeled correction $\Delta f_\mathrm{model}$, whereas “alignment” measures the cosine similarity between the ground-truth correction $\Delta f_\mathrm{gt}$ and $\Delta f_\mathrm{model}$.
+**Table 6. Comparison of normal-form identification performance metrics with and without warm-up for the Hopf experiment.** Here, “leakage” measures the cosine similarity between the ground-truth orbit-tangent direction $r_\mathrm{gt}$ and the modeled correction $\Delta f_\mathrm{pred}$, whereas “alignment” measures the cosine similarity between the ground-truth correction $\Delta f_\mathrm{gt}$ and $\Delta f_\mathrm{pred}$.
 ***
 ## Table 7. Computational Cost and Parameter Count
 ![](./resources/Table_7.png)
